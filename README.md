@@ -15,7 +15,7 @@ The primary goal is to deliver a complete, end-to-end functional application whe
 4. Receive and view their final score on a dedicated results page.
 
 ### 2. Core Features
-- Database Integration: Uses a lightweight database (assumed to be SQLite) to securely store quiz questions, options, and correct answers.
+- Database Integration: Uses a lightweight database (SQLite) to securely store quiz questions, options, and correct answers.
 
 - Secure API: Provides an endpoint to fetch questions for the quiz (without exposing the correct answers) and a scoring endpoint to calculate the user's result on the server side.
 
@@ -55,7 +55,7 @@ You must have the following software installed on your machine:
       pnpm install
 
 ****Step 3: Database Setup and Seeding****
-This project is configured to use a local database (assumed to be SQLite).
+This project is configured to use a local database (SQLite).
 
 1. ****Create Environment File:**** Create a file named ```.env.local``` in the root directory.
 
